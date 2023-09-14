@@ -1,4 +1,5 @@
 import ReactWeather, { useOpenWeather } from 'react-open-weather';
+import Box from './box';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
         showForecast
       />
+      <Box/>
     </div>
   );
 }
